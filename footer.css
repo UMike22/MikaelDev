@@ -14,20 +14,20 @@
     outline: 0;
 }
 .linkedin{
-    background: url(/img/linkedin.png);
+    background: url(linkedin.png);
     position: relative;
     
     width: 32px;
     height: 32px;
 }
 .instagram{
-    background: url(/img/instagram-esbocado.png);
+    background: url(instagram-esbocado.png);
     width: 32px;
     height: 32px;
     position: relative;
 } 
 .gmail{
-    background: url(/img/o-email.png);
+    background: url(o-email.png);
     width: 32px;
     height: 32px;
     position: relative;
