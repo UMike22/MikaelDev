@@ -1,3 +1,48 @@
+body{
+    background-color: #1b1d20;
+    background-image: url(Mikael-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+    margin: 0 auto;
+    width: 100vw;
+    
+}
+body{
+    font-family: 'Karla', sans-serif;
+    color: #E5EEF0;
+}
+h2{
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Changa One', cursive;
+    color: #D8E6E9;
+    text-align: center;
+}
+p{
+    text-shadow: black 0.5px 0.5px;
+    font-size: 22px;
+    font-family: 'Karla', sans-serif;
+    line-height: 1.4;
+}
+.resume{
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+.resume p {
+    display: block;
+    width: 40vw;
+    
+}
 .center{
     margin: 0 auto;
     width: 90%;
@@ -101,4 +146,157 @@
     border-radius: 50%;
     box-shadow: 10px 3px 3px solid black;
     
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+.skills >.ul-skills{
+    margin-top: 20px;
+    position: relative;
+}
+
+.skills > .ul-skills > .list-skills > .name{
+    font-size: 30px;
+    color: whitesmoke;
+    position: absolute;
+    text-shadow: black 0.5px 0.5px;
+}
+.skills > .ul-skills > .list-skills > .css{
+    top: 3%;
+    left: 34%;
+}
+.skills > .ul-skills > .list-skills > .html{
+    top: 80px;
+    left: 29%;
+}
+.skills > .ul-skills > .list-skills > .javascript{
+    top: 145px;
+    left: 15%;
+}
+.skills > .ul-skills > .list-skills > .c{
+    top: 215px;
+    left: 34%;
+}
+
+
+.progress {
+    background: #BFC0C0;
+    height: 30px;
+    width: 200px;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 40px;
+    
+}
+    @keyframes loading {
+        from { width: 1% }
+        to { width: 75% }
+}
+      
+      .progress::after {
+        animation: loading 3s  ease-in-out;
+        animation-fill-mode: forwards;
+        background:#2D3142;
+        content: '';
+        position: absolute;
+        left: 0; top: 0; bottom: 0;
+        border-radius: 8px;
+        
+        
+      }
+      
+      @keyframes loading3 {
+        from { width: 1% }
+        to { width: 70% }
+      }
+      .middle::after{
+        animation: loading3 3s  ease-in-out;
+        animation-fill-mode: forwards;
+        background: #2D3142;
+        content: '';
+        position: absolute;
+        left: 0; top: 0; bottom: 0;
+        border-radius: 8px;
+      }
+
+
+      @keyframes loading2 {
+        from { width: 1% }
+        to { width: 60% }
+      }
+      .last::after{
+        animation: loading2 3s  ease-in-out;
+        animation-fill-mode: forwards;
+        background: #2D3142;
+        content: '';
+        position: absolute;
+        left: 0; top: 0; bottom: 0;
+        border-radius: 8px;
+      }
+      @keyframes loading4 {
+        from { width: 1% }
+        to { width: 40% }
+      }
+      
+      .last2::after{
+        animation: loading4 3s  ease-in-out;
+        animation-fill-mode: forwards;
+        background: #2D3142;
+        content: '';
+        position: absolute;
+        left: 0; top: 0; bottom: 0;
+        border-radius: 8px;
+      }
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.social > .social-nav{
+ background-repeat: no-repeat;
+text-indent: -99999px;
+display:inline-block;
+margin: 10px;
+border: 0;
+outline: 0;
+}
+.linkedin{
+background: url(linkedin.png);
+position: relative;
+
+width: 32px;
+height: 32px;
+}
+.instagram{
+background: url(instagram-esbocado.png);
+width: 32px;
+height: 32px;
+position: relative;
+} 
+.gmail{
+background: url(o-email.png);
+width: 32px;
+height: 32px;
+position: relative;
+
+
+}
+.copyright{
+position: absolute;
+font-size: 12px;
+right: 5px;
+}
+@media(max-width:770px){
+.copyright{
+    font-size: 8px;
+    text-align: center;
+}
 }
